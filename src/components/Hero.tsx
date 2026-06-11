@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Github, Linkedin, Mail, ArrowRight, FileText, Sparkles } from 'lucide-react';
 import { personalInfo } from '../data';
+import profileAvatar from '../assets/images/rakhi_avatar_1780749514315.png';
 
 interface HeroProps {
   onScrollToSection: (id: string) => void;
@@ -169,7 +170,7 @@ export default function Hero({ onScrollToSection, onOpenResume }: HeroProps) {
             {/* Main Avatar Wrapper */}
             <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden border-4 border-white dark:border-slate-800 shadow-xl bg-white dark:bg-slate-800">
               <img
-                src="/src/assets/images/rakhi_avatar_1780749514315.png"
+                src={profileAvatar}
                 alt="Rakhi Tiwari Profile Avatar"
                 className="w-full h-full object-cover select-none"
                 referrerPolicy="no-referrer"
