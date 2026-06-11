@@ -47,7 +47,7 @@ export default function Footer({ onOpenResume }: FooterProps) {
           </a>
 
           <a
-            href={`https://${personalInfo.linkedin}`}
+            href={personalInfo.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-xs font-semibold text-gray-650 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 cursor-pointer"

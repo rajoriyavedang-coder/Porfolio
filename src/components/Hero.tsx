@@ -137,7 +137,7 @@ export default function Hero({ onScrollToSection, onOpenResume }: HeroProps) {
               <Github size={18} />
             </a>
             <a
-              href={`https://${personalInfo.linkedin}`}
+              href={personalInfo.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="p-1.5 text-gray-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"

@@ -18,7 +18,7 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
 RAKHI TIWARI
 ${personalInfo.title}
 Phone: ${personalInfo.phone} | Email: ${personalInfo.email} | ${personalInfo.location}
-LinkedIn: linkedin.com/in/rakhi-tiwari | GitHub: github.com/rakhiT19
+LinkedIn: linkedin.com/in/rakhi-tiwari-aaa302319 | GitHub: github.com/rakhiT19
     `;
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);

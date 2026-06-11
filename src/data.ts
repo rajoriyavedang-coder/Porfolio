@@ -9,7 +9,7 @@ export const personalInfo = {
   phone: '+91-9303979370',
   location: 'Indore, Madhya Pradesh, India',
   github: 'https://github.com/rakhiT19',
-  linkedin: 'https://linkedin.com/in/rakhi-tiwari-aaa302319',
+  linkedin: 'https://www.linkedin.com/in/rakhi-tiwari-aaa302319/',
   resumeUrl: '#', // Handled via interactive modal or direct simulated download in UI
 };
 

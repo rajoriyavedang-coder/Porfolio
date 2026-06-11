@@ -55,7 +55,7 @@ export default function Contact() {
 
                 {/* LinkedIn Channel */}
                 <a
-                  href={`https://${personalInfo.linkedin}`}
+                  href={personalInfo.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3.5 p-4 rounded-2xl bg-white dark:bg-slate-800 border border-gray-200/50 dark:border-slate-800/80 hover:border-blue-500/50 hover:shadow-xs group transition-all"
@@ -68,7 +68,7 @@ export default function Contact() {
                       LinkedIn Network
                     </span>
                     <span className="block font-sans text-xs sm:text-sm font-semibold text-gray-800 dark:text-slate-200 truncate">
-                      linkedin.com/in/rakhi-tiwari
+                      linkedin.com/in/rakhi-tiwari-aaa302319
                     </span>
                   </div>
                 </a>
